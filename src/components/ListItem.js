@@ -13,14 +13,6 @@ import * as actions from '../actions';
 
 class ListItem extends Component {
 // props: this.props.library will be passed.
-  constructor(props) {
-    super(props);
-    //if (Platform.OS === 'android') {
-      //UIManager.setLayoutAnimationEnabledExperimental &&
-      //UIManager.setLayoutAnimationEnabledExperimental(true);
-    //}
-  }
-
   componentWillUpdate() {
     LayoutAnimation.linear();
   }
